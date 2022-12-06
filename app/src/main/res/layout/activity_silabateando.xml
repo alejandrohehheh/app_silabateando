@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFEFE"
+    android:backgroundTint="#A3E3E3"
+    tools:context=".silabateando">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:fontFamily="@font/luckiest_guy"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:text="TextView"
+            android:textSize="35sp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="330dp"
+            app:srcCompat="@drawable/logo12" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="191dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+
+            android:backgroundTint="#6FC7DD"
+            android:fontFamily="@font/luckiest_guy"
+            android:onClick="regresar"
+            android:text="Empezar"
+            android:textColor="#033CE5"
+            android:textSize="20sp" />
+    </LinearLayout>
+</FrameLayout>
